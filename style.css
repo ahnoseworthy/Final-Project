@@ -1,0 +1,44 @@
+html{
+  background-color:violet;
+  display: flex;
+  padding: 5rem;
+}
+
+.container{
+  text-align: center;
+  flex: content;
+}
+
+h1{
+  border-style: double;
+  padding: 2rem;
+  border-color: purple;
+  border-radius: 30px;
+  font-style: italic;
+}
+
+h2{
+  background-color: rgba(148, 69, 222, 0.655);
+  font-family:'Times New Roman', Times, serif;
+}
+
+svg{
+  max-width: 15%;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  display: inline;
+}
+
+/** https://cssgradient.io/blog/css-gradient-text/ **/
+/** used this link to refer and modify how to do a text gradient **/
+p + h3{
+  background: -webkit-linear-gradient(rgb(149, 45, 149), rgb(78, 4, 78));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
